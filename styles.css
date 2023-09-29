@@ -1,0 +1,364 @@
+body{
+    margin: 0px;
+    text-align: center;
+    background-image: url(./images/background.png);
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Arial, "Source Sans Pro" !important;
+}
+
+header>div{
+    width: 1104.408px;
+    height: 29.461px;
+    flex-shrink: 0;
+    margin: 35px 164px 0px 172px;
+    padding: 0px, 0px, 0px, 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.menu{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 53px;
+}
+.menu>a{
+    color: #FFF;
+    font-family: Arial, "Source Sans Pro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+button{
+    border-radius: 22px;
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
+    bottom: 168px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Arial, "Source Sans Pro";
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+.main_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-family: Arial, "Source Sans Pro";
+    font-size: 120px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 0px;
+}
+.tagline{
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, "Source Sans Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-spacing: 57px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+/*pro section*/
+.pros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, "Source Sans Pro";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 168px;
+}
+.pro-profiles{
+    margin: 0px 214px 98px 214px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    width: 100%;
+}
+.pro-profiles>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 237px;
+    text-align: center;
+}
+.pro-profiles>div>img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+.pros>h2 {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.purple {
+    color: #C271FF;
+    font-weight: bold;
+}
+.pro-profiles>div>h3 {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.pro-profiles>div>p {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px;
+}
+
+/*testimonial*/
+.testimonial{
+    background-color: #C271FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    height: 392px;
+    padding: 50px 200px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: Arial, "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 34px;
+    /*width: 730px;*/
+}
+.quote>p {
+    margin: 0px 40px;
+}
+.italic{
+    font-style: italic;
+    font-weight: 400;
+}
+.person-name{
+    color: white;
+    font-size: 22px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 700;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+/*Tutorial video section*/
+.tutorials{
+    width: 100%;
+    margin-bottom: 87px;
+}
+.tutorials>h1{
+    text-align: center;
+    color: #071629;
+    font-size: 32px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 300;
+    word-wrap: break-word;
+    margin-top: 87px;
+    margin-bottom: 0px;
+}
+.tutorials>div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 150px;
+    gap: 30px;
+    margin-top: 75px;
+}
+.tutorial-item{
+   text-align: left;
+   width: 255px;
+   height: 335px;
+}
+.tutorial-item h2{
+    color: #071629;
+    font-size: 16px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 700;
+    word-wrap: break-word;
+    font-style: normal;
+    line-height: normal;
+}
+.tutorial-item p{
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin: 0;
+}
+.tutorial-avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tutorial-avatar>img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 13px;
+}
+.tutorial-avatar>h3{
+    color: #C271FF;
+    font-size: 14px;
+    font-family: Arial,"Source Sans Pro";
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+.rating>img{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+.rating{
+    margin-right: 80px;
+    height: 15px;
+}
+.tutorial-foot{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.tutorial-foot>p{
+    margin: 0;
+}
+
+/*Membership section*/
+.membership{
+    background-color: #071629;
+    color: #FFF;
+    padding: 50px 150px;
+}
+.membership>h1{
+    color: white;
+    font-size: 32px;
+    font-family: Arial, "Source Sans Pro";
+    font-weight: 300;
+    word-wrap: break-word;
+    text-align: center;
+}
+.dots{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+/*FAQ section*/
+.faq{
+    padding: 70px 200px;
+}
+.faq>h1{
+    text-align: center; 
+    color: #071629; 
+    font-size: 60px; 
+    font-family: "Source Sans Pro"; 
+    font-weight: 300; 
+    word-wrap: break-word;
+}
+.questions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.questions>div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 20px;
+    text-align: left;
+    gap: 30px;
+    width: 350px; 
+}
+.questions>div>div>h2 {
+    color: #071629;
+    font-size: 16px;
+    font-family: Arial, "Source Sans Pro";
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.questions>div>div>p {
+    color: rgba(7, 22, 41, 0.50); 
+    font-size: 14px; 
+    font-family: Arial, "Source Sans Pro"; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+/*footer*/
+footer{
+    background-color: #071629;
+    padding: 50px 150px;
+    padding-bottom: 0px;
+}
+.foot>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 130px;
+}
+.foot>p {
+    opacity: 0.35; 
+    color: white; 
+    font-size: 12px; 
+    font-family: Arial, "Source Sans Pro"; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    margin: 0;
+    padding-bottom: 40px;
+}
